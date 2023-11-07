@@ -1,0 +1,154 @@
+@import "constants.css";
+
+footer {
+    display: flex;
+    background-color: #1194C2;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 1rem;
+    color: #F6F3F3;
+    height: fit-content;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.footer-subscribe {
+    border: 2px solid white;
+    width: 420px;
+    height: 35px;
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.footer-subscribe input {
+    flex: 1;
+    border: 2px solid white;
+    outline: none;
+    background-color: #D9D9D9;
+    padding-left: 1rem;
+}
+
+.footer-socials ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+
+
+.footer-right-copyright {
+    align-self: end;
+    margin-right: 50px;
+
+}
+
+.email {
+    background-color: #D9D9D9;
+    text-align: center;
+    padding-left: 10px;
+
+}
+
+.footer-subscribe button {
+    background: #F6861F;
+    padding: 0 50px;
+    border: 2px solid white;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: row;
+    gap: .1rem;
+}
+
+.footer-right-about {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.customer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #ffffff;
+    width: 200px;
+    height: 100px;
+
+}
+
+.footer-customer-right ul li {
+    list-style: none;
+    display: flex;
+    margin-right: 150px;
+}
+
+
+
+.footer-right-about {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    width: 200px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.footer-right-about ul, a {
+    list-style: none;
+    /*margin-right: 30px;*/
+    color: #ffffff;
+}
+
+.social {
+    display: flex;
+    position: relative;
+    color: #ffffff;
+    padding-top: 160px;
+}
+
+.social ul li svg {
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: flex;
+    margin-right: 30px;
+}
+
+.copyright svg {
+    width: 60px;
+    height: 60px;
+    color: white;
+    display: grid;
+    margin-bottom: 55px;
+    margin-right: 50px;
+}
+
+.social ul li i {
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.social ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+@media (max-width: 900px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

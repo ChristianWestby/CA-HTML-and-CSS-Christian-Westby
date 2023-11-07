@@ -1,0 +1,57 @@
+@import "constants.css";
+
+header {
+    background-color: #25B0DC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+header  .logo {
+    font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+
+    text-decoration: underline white;
+}
+header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Source Sans Pro;
+}
+
+.header image {
+    color: white;
+    display: flex;
+    width: auto;
+    height: 70px;
+}
+.nav-icons {
+    color: whitesmoke;
+}
+
+.logo {
+    display: flex;
+    width: auto;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    header nav .nav-links {
+        display: none;
+    }
+}
