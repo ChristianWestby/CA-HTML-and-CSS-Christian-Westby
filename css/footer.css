@@ -16,7 +16,6 @@ footer {
     gap: 1rem;
 }
 
-
 .footer-subscribe {
     border: 2px solid white;
     width: 420px;
@@ -41,19 +40,15 @@ footer {
     margin-left: 30px;
 }
 
-
-
 .footer-right-copyright {
     align-self: end;
     margin-right: 50px;
-
 }
 
 .email {
     background-color: #D9D9D9;
     text-align: center;
     padding-left: 10px;
-
 }
 
 .footer-subscribe button {
@@ -92,8 +87,6 @@ footer {
     display: flex;
     margin-right: 150px;
 }
-
-
 
 .footer-right-about {
     display: flex;
